@@ -9,7 +9,7 @@ var proxy = 'PROXY 127.0.0.1:__PROXY_PORT__; SOCKS5 127.0.0.1:__SOCKS_PORT__; DI
 var rules = [
     [
         [],
-        []
+        [__USER_PAC__]
     ],
     [
         [
